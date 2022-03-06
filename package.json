@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"author": "Alex Aritan",
-	"license": "GPLv3",
+	"license": "GPL-3.0",
 	"scripts": {
 		"build": "rm -rf dist && tsc -p .",
 		"lint": "eslint . --ext ts",
