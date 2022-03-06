@@ -5,7 +5,7 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import { IconButton } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { useSwipeable } from 'react-swipeable';
-// import { useKeyPress } from '../utils/hooks/useKeyPress';
+import { useKeyPress } from '../utils/hooks/useKeyPress';
 
 export const FullPagePhoto = ({
 	handleClose,
@@ -23,8 +23,8 @@ export const FullPagePhoto = ({
 	const shouldRenderNavIcons = useMediaQuery(theme.breakpoints.up('sm'));
 
 	//Set up the key listeners.
-	// useKeyPress({ onKeyPress: handlePrevious, targetKey: 'ArrowLeft' });
-	// useKeyPress({ onKeyPress: handleNext, targetKey: 'ArrowRight' });
+	useKeyPress({ onKeyPress: handlePrevious, targetKey: 'ArrowLeft' });
+	useKeyPress({ onKeyPress: handleNext, targetKey: 'ArrowRight' });
 
 	// Make the images swipeable on mobile.
 	const swipeHandlers = useSwipeable({
