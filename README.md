@@ -19,7 +19,7 @@ or npm
 ```
 import { PhotoGrid } from '@alexaritan/photo-gallery;
 
-const Gallery = () => {
+export const Gallery = () => {
 	const photoUrls = ['./img1.jpg', './img2/jpg'];
 	const onClick = (id) => console.log(`clicked image ${id}`);
 	const subtitle = 'Sweet, sweet chocolate';
@@ -27,7 +27,7 @@ const Gallery = () => {
 
 	return (<PhotoGrid
 		imgUrls={photoUrls}
-		onClick={id => navigate(`${photoUrl({ albumName })}?id=${id}`)}
+		onClick={onClick}
 		subtitle={subtitle}
 		title={title}
 	/>);
