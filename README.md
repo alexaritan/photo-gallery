@@ -31,5 +31,5 @@ export const Gallery = () => {
 		subtitle={subtitle}
 		title={title}
 	/>);
-}
+};
 ```
