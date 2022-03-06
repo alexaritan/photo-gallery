@@ -25,12 +25,14 @@ export const Gallery = () => {
 	const subtitle = 'Sweet, sweet chocolate';
 	const title = 'I remember when they first invested chocolate';
 
-	return (<PhotoGrid
-		imgUrls={photoUrls}
-		onClick={onClick}
-		subtitle={subtitle}
-		title={title}
-	/>);
+	return (
+		<PhotoGrid
+			imgUrls={photoUrls}
+			onClick={onClick}
+			subtitle={subtitle}
+			title={title}
+		/>
+	);
 };
 ```
 
