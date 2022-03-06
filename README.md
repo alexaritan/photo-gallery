@@ -44,6 +44,7 @@ View a single photo
 import { FullPagePhoto } from '@alexaritan/photo-gallery';
 
 export const Photo = () => {
+	//Handlers for what to do when the user closes the image and for navigating between images.
 	const handleClose = () => console.log('closed');
 	const handleNext = () => console.log('next');
 	const handlePrevious = () => console.log('previous');
