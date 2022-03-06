@@ -76,6 +76,10 @@ Includes a "back to top" button after scrolling down a bit
 
 ## Full page photo screenshot
 
-Default desktop display
+Default desktop display includes a close button and next/previous buttons on desktop
 
 ![Full page photo on desktop](./resources/screenshot4.png)
+
+Mobile display of a single photo doesn't include icons and supports swiping left/right between photos and down to close
+
+![Full page photo on mobile](./resources/screenshot5.png)
