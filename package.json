@@ -1,11 +1,11 @@
 {
-	"name": "plex-ts",
+	"name": "@alexaritan/photo-gallery",
 	"version": "0.0.1",
-	"description": "A TypeScript module for communicating with a Plex server.",
+	"description": "A TypeScript library for .",
 	"main": "dist/app.js",
 	"types": "dist/app.d.ts",
 	"author": "Alex Aritan",
-	"license": "MIT",
+	"license": "GPLv3",
 	"scripts": {
 		"build": "rm -rf dist && tsc -p .",
 		"lint": "eslint . --ext ts",
