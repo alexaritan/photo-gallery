@@ -1,11 +1,15 @@
 {
 	"name": "@alexaritan/photo-gallery",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A TypeScript library for easily creating photo galleries in React apps.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"author": "Alex Aritan",
 	"license": "GPL-3.0",
+	"repository": {
+		"url": "https://github.com/alexaritan/photo-gallery",
+		"type": "git"
+	},
 	"scripts": {
 		"build": "rm -rf dist && tsc -p .",
 		"lint": "eslint . --ext ts",
