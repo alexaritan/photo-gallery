@@ -1,6 +1,6 @@
 # photo-gallery
 
-A really simple TypeScript based photo gallery for React apps.
+A really simple TypeScript based photo gallery for React apps. Built using MUI.
 
 # How to use
 
