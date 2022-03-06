@@ -69,7 +69,7 @@ export const Photo = () => {
 			src={src}
 		/>
 	);
-}
+};
 ```
 
 ## Gallery Screenshots

@@ -21,11 +21,11 @@ export const PhotoGrid = ({
 	const shouldRenderMultipleColumns = useMediaQuery(theme.breakpoints.up('sm'));
 
 	return (
-		<div className='photoGrid'>
-			<Typography component='h2' variant='h2'>
+		<div className="photoGrid">
+			<Typography component="h2" id="albumTitle" variant="h2">
 				{title}
 			</Typography>
-			<Typography component='div' variant='subtitle1'>
+			<Typography component="div" variant="subtitle1">
 				{subtitle}
 			</Typography>
 			<ImageList
@@ -34,16 +34,16 @@ export const PhotoGrid = ({
 			>
 				{imgUrls.map((url, index) => (
 					<ImageListItem
-						className='photo'
+						className="photo"
 						key={`photo${index}`}
 						style={{ overflow: 'hidden' }}
 					>
-						<img alt='' onClick={() => onClick(index)} src={url} />
+						<img alt="" onClick={() => onClick(index)} src={url} />
 					</ImageListItem>
 				))}
 			</ImageList>
 			<ScrollToTop>
-				<Fab aria-label='scroll-to-top' color='primary'>
+				<Fab aria-label="scroll-to-top" color="primary">
 					<KeyboardArrowUp />
 				</Fab>
 			</ScrollToTop>

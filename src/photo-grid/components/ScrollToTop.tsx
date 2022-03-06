@@ -12,7 +12,7 @@ export const ScrollToTop = ({ children }: { children: React.ReactElement }) => {
 	const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
 		const anchor = (
 			(event.target as HTMLDivElement).ownerDocument || document
-		).querySelector('#navbar');
+		).querySelector('#albumTitle');
 
 		if (anchor) {
 			anchor.scrollIntoView({
@@ -26,7 +26,7 @@ export const ScrollToTop = ({ children }: { children: React.ReactElement }) => {
 		<Zoom in={trigger}>
 			<Box
 				onClick={handleClick}
-				role='presentation'
+				role="presentation"
 				sx={{ position: 'fixed', bottom: 16, right: 16 }}
 			>
 				{children}
