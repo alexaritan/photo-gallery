@@ -33,3 +33,7 @@ export const Gallery = () => {
 	/>);
 };
 ```
+
+## Screenshots
+
+![text](./resources/screenshot1.png)
