@@ -26,10 +26,10 @@ const Gallery = () => {
 	const title = 'I remember when they first invested chocolate';
 
 	return (<PhotoGrid
-			imgUrls={photoUrls}
-			onClick={id => navigate(`${photoUrl({ albumName })}?id=${id}`)}
-			subtitle={subtitle}
-			title={title}
-		/>);
+		imgUrls={photoUrls}
+		onClick={id => navigate(`${photoUrl({ albumName })}?id=${id}`)}
+		subtitle={subtitle}
+		title={title}
+	/>);
 }
 ```
