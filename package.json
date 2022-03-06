@@ -9,6 +9,7 @@
 	"scripts": {
 		"build": "rm -rf dist && tsc -p .",
 		"lint": "eslint . --ext ts",
+		"publish": "npm publish --access=public",
 		"test": "jest"
 	},
 	"husky": {
