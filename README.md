@@ -63,13 +63,19 @@ export const Photo = () => {
 
 ## Gallery Screenshots
 
-Default display on desktop
-![text](./resources/screenshot1.png)
+Default desktop display
+![Gallery on desktop](./resources/screenshot1.png)
 
 Automatically reformats for mobile
 
-![text](./resources/screenshot2.png)
+![Mobile formatting of gallery](./resources/screenshot2.png)
 
 Includes a "back to top" button after scrolling down a bit
 
-![text](./resources/screenshot3.png)
+![Back to top button](./resources/screenshot3.png)
+
+## Full page photo screenshot
+
+Default desktop display
+
+![Full page photo on desktop](./resources/screenshot4.png)
