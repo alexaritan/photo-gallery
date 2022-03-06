@@ -2,6 +2,17 @@
 
 A really simple TypeScript based photo gallery for React apps. Built using MUI.
 
+# Features
+
+- Displays a grid of photos by providing a list of URLs
+- Formats appropriately for desktop and mobile
+- Displays a single full page photo with
+  - close, back, and next icons (on desktop)\*
+  - arrow key navigation (on desktop)\*
+  - swipe left/right to navigate, down the close (on mobile)\*
+
+\* You'll need to provide the `handleClose`, `handleNext`, and `handlePrevious` functions for swipe, arrow key, and ui-based navigation on full page photos. I didn't want to closely couple this library with any specific implementation. One potential solution is using `react-router-dom`.
+
 # How to use
 
 ## Install it
