@@ -36,4 +36,11 @@ export const Gallery = () => {
 
 ## Screenshots
 
+Default display on desktop
 ![text](./resources/screenshot1.png)
+
+Automatically reformats for mobile
+![text](./resources/screenshot2.png)
+
+Includes a "back to top" button after scrolling down a bit
+![text](./resources/screenshot3.png)
