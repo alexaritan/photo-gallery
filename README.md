@@ -16,6 +16,8 @@ or npm
 
 ## Use it
 
+Display a gallery
+
 ```
 import { PhotoGrid } from '@alexaritan/photo-gallery;
 
@@ -36,7 +38,27 @@ export const Gallery = () => {
 };
 ```
 
-## Screenshots
+View a single photo
+
+```
+export const Photo = () => {
+	const handleClose = () => console.log('closed');
+	const handleNext = () => console.log('next');
+	const handlePrevious = () => console.log('previous');
+	const src = './img1.jpg';
+
+	return (
+		<Photo
+			handleClose={handleClose}
+			handleNext={handleNext}
+			handlePrevious={handlePrevious}
+			src={src}
+		/>
+	);
+}
+```
+
+## Gallery Screenshots
 
 Default display on desktop
 ![text](./resources/screenshot1.png)
