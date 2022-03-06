@@ -1,7 +1,7 @@
 {
 	"name": "@alexaritan/photo-gallery",
 	"version": "0.0.1",
-	"description": "A TypeScript library for .",
+	"description": "A TypeScript library for easily creating photo galleries in React apps.",
 	"main": "dist/app.js",
 	"types": "dist/app.d.ts",
 	"author": "Alex Aritan",
