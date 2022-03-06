@@ -41,6 +41,8 @@ export const Gallery = () => {
 View a single photo
 
 ```
+import { FullPagePhoto } from '@alexaritan/photo-gallery';
+
 export const Photo = () => {
 	const handleClose = () => console.log('closed');
 	const handleNext = () => console.log('next');
@@ -48,7 +50,7 @@ export const Photo = () => {
 	const src = './img1.jpg';
 
 	return (
-		<Photo
+		<FullPagePhoto
 			handleClose={handleClose}
 			handleNext={handleNext}
 			handlePrevious={handlePrevious}
