@@ -63,6 +63,7 @@ export const Photo = () => {
 
 	return (
 		<FullPagePhoto
+			fullScreen={true}
 			handleClose={handleClose}
 			handleNext={handleNext}
 			handlePrevious={handlePrevious}
