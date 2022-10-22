@@ -13,7 +13,7 @@
 	"scripts": {
 		"build": "rm -rf dist && tsc -p .",
 		"lint": "eslint . --ext ts",
-		"publishLibrary": "npm publish --access=public",
+		"publishLibrary": "npm run build && npm publish --access=public",
 		"test": "jest"
 	},
 	"husky": {
