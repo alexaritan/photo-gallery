@@ -64,7 +64,6 @@ export const FullPagePhoto = ({
 							left: 20,
 							position: 'absolute',
 							top: 10,
-							zIndex: 10000,
 							...(!fullScreen && { top: '90px' }),
 						}}
 					>
@@ -84,6 +83,7 @@ export const FullPagePhoto = ({
 								maxHeight: '85%',
 								position: 'absolute',
 								right: 0,
+								zIndex: -1,
 							}),
 							maxWidth: '100%',
 							objectFit: 'contain',
